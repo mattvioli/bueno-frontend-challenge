@@ -4,11 +4,10 @@
 
 1. [Git](https://git-scm.com/) should be installed and used to clone this repository
 2. [Node.js](https://nodejs.org/en/) should be installed
-3. A GitHub account
 
 ## Quickstart
 
-1. Fork this repository and clone the fork to your machine
+1. Clone this repository to your machine
 2. Install the dependencies `npm install`
 3. Start the application `npm start`
 
@@ -20,11 +19,11 @@ Build a basic single-page application from the provided design to help look for 
 
 1. Shows a list of all Pokémon
 2. Allows a user to filter the list of Pokémon by their type(s)
-3. Pokémon stats over 90 are shown in red
+3. Pokémon stats greater than or equal to 90 are shown in red
 
 #### What's provided
 
-1. A slightly modified [Create React App](https://create-react-app.dev/) template project using the TypeScript template, a CSS reset, and the Pokémon logo image.  
+1. A slightly modified [Create React App](https://create-react-app.dev/) template project using the TypeScript template, some basic CSS, and the Pokémon logo image.  
    _You are free to use any other boilerplate or React framework that uses TypeScript if you'd prefer._
 2. A `.json` file in `./src/data/` containing all the Pokémon data from the first generation.  
    _An import is already provided in `./src/App.tsx` to use this data too!_
@@ -40,6 +39,8 @@ Build a basic single-page application from the provided design to help look for 
 
 - 2–4 hours over ~5 days
 - Use React and TypeScript
+- Feel free to use any additional tools/libraries you feel comfortable with
+- Style the app using any method you prefer. Eg: CSS Modules, Sass, Emotion, etc.
 
 ## Expectations
 
@@ -50,8 +51,6 @@ If you feel there was more you could do to improve it by the end of this time, p
 ## Submission
 
 Once you've finished you can send us the URL to your repository via email. If your repository is private let us know and we'll send you the GitHub accounts that will need access to review the submission.
-
-You are free to open source your work if you like.
 
 # Create React App Readme
 
