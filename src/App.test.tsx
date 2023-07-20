@@ -1,8 +1,9 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render } from "@testing-library/react";
+import App from "./App";
 
-test('renders "It works!" text', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/It works!/i);
-  expect(linkElement).toBeInTheDocument();
+describe("App", () => {
+	it("renders correctly", () => {
+		const app = render(<App />);
+		expect(app).toMatchSnapshot();
+	});
 });
