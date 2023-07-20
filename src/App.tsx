@@ -1,4 +1,3 @@
-import "css-wipe";
 import { Nav } from "components/nav";
 import { Container } from "components/container";
 import { Content } from "components/content";

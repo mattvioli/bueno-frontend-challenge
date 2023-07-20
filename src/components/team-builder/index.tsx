@@ -1,5 +1,4 @@
 import { ListContainer } from "components/list-container";
-import "css-wipe";
 import jsonData from "data/pokemon-gen1.json";
 import type { Pokemon } from "types";
 
