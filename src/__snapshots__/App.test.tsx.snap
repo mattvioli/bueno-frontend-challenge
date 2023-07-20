@@ -3,17 +3,29 @@
 exports[`App renders correctly 1`] = `
 Object {
   "asFragment": [Function],
-  "baseElement": <body>
+  "baseElement": .c0 {
+  max-height: 82px;
+  background-color: var(--color-red);
+  display: flex;
+  justify-content: center;
+}
+
+.c1 {
+  margin-top: 25px;
+  max-height: 90px;
+}
+
+<body>
     <div>
       <div
         class="container"
       >
         <nav
-          class="nav"
+          class="c0"
         >
           <img
             alt="Pokémon Logo"
-            class="logo"
+            class="c1"
             src="pokemon-logo.png"
           />
         </nav>
@@ -32,16 +44,28 @@ Object {
       </div>
     </div>
   </body>,
-  "container": <div>
+  "container": .c0 {
+  max-height: 82px;
+  background-color: var(--color-red);
+  display: flex;
+  justify-content: center;
+}
+
+.c1 {
+  margin-top: 25px;
+  max-height: 90px;
+}
+
+<div>
     <div
       class="container"
     >
       <nav
-        class="nav"
+        class="c0"
       >
         <img
           alt="Pokémon Logo"
-          class="logo"
+          class="c1"
           src="pokemon-logo.png"
         />
       </nav>
