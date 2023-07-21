@@ -36,3 +36,12 @@ export interface Pokemon {
 	sprite: PokemonSprite;
 	types: PokemonType[];
 }
+
+export type ParsedPokemonStats = {
+	hp: String;
+	attack: String;
+	defense: String;
+	speed: String;
+	"special-attack": String;
+	"special-defense": String;
+};
