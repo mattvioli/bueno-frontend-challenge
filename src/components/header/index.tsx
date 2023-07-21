@@ -9,5 +9,4 @@ font-weight: 700;
 line-height: 31px;
 letter-spacing: 0em;
 text-align: center;
-
 `;

@@ -1,61 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav renders correctly 1`] = `
+exports[`Header renders correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": .c0 {
-  max-height: 82px;
-  background-color: var(--color-red);
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  width: 100%;
-  top: 0;
-}
-
-.c1 {
-  margin-top: 25px;
-  max-height: 90px;
+  width: 437px height:31px font-family:Arial;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 <body>
     <div>
-      <nav
+      <h1
         class="c0"
       >
-        <img
-          alt="Pokémon Logo"
-          class="c1"
-          src="pokemon-logo.png"
-        />
-      </nav>
+        This is content
+      </h1>
     </div>
   </body>,
   "container": .c0 {
-  max-height: 82px;
-  background-color: var(--color-red);
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  width: 100%;
-  top: 0;
-}
-
-.c1 {
-  margin-top: 25px;
-  max-height: 90px;
+  width: 437px height:31px font-family:Arial;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 <div>
-    <nav
+    <h1
       class="c0"
     >
-      <img
-        alt="Pokémon Logo"
-        class="c1"
-        src="pokemon-logo.png"
-      />
-    </nav>
+      This is content
+    </h1>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

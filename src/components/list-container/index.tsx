@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const ListContainer = styled.div`
+export const ListContainer = styled.tbody`
 	background-color: var(--color-white);
 	padding: 10px;
 	border-radius: 8px;
